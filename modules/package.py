@@ -1,7 +1,10 @@
 import pandas as pd
 import nltk
+# nltk.download()
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
+nltk.download('omw-1.4')
+
 import re
 
 import numpy as np
